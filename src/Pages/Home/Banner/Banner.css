@@ -1,0 +1,187 @@
+/**_________________________________ home section starts ____________________________________**/
+.home_banner {
+
+    background-size: cover;
+    background-position: center;
+}
+
+
+nav {
+    transition: 0.9s;
+    background-color: black;
+}
+
+.sticky {
+    background-color: rgb(255, 255, 255);
+    transition: 0.9s;
+    color: rgb(0, 0, 0) !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.manu_bar {
+    background-color: #2A486C;
+    border: none;
+}
+
+nav button {
+    outline: none;
+}
+
+.manu_bar:hover {
+    background-color: #D1AD3C;
+    outline: none !important;
+}
+
+.sticky_nav_link {
+    color: rgb(0, 0, 0) !important;
+}
+
+
+
+nav a,
+.nav-link {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.logo img {
+    width: 130px;
+}
+
+.tilawat_dropdown_container {
+    display: inline;
+    position: relative;
+}
+
+.tilawat_dropdown_content a {
+    color: black;
+    text-decoration: none;
+}
+
+.tilawat_dropdown_content a {
+    display: block;
+}
+
+.tilawat_dropdown_content {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    display: none;
+}
+
+.tilawat_dropdown_container:hover .tilawat_dropdown_content {
+    display: block;
+}
+
+
+.features_dropdown_container {
+    display: inline;
+    position: relative;
+}
+
+.features_dropdown_content a {
+    color: black;
+    text-decoration: none;
+}
+
+.features_dropdown_content a {
+    display: block;
+}
+
+.features_dropdown_content {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    border-radius: none !important;
+}
+
+.features_dropdown_container:hover .features_dropdown_content {
+    display: block;
+}
+
+.nav-link:hover,
+.dropdown_content:hover {
+    color: #D1AD3C !important;
+}
+
+.want_to_visit_btn {
+    background-color: #D1AD3C !important;
+    border-radius: 40px;
+    transition: 0.5s;
+}
+
+.want_to_visit_btn:hover {
+    background-color: #2A486C !important;
+    color: white !important;
+    transition: 0.5s;
+}
+
+.home_text_container {
+    height: 100vh;
+}
+
+.bsml_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.knwo_the_real {
+    font-size: 38px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.tafseer {
+    font-size: 54px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 0.7;
+}
+
+
+.when_things p {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    line-height: 1.1;
+}
+
+.quran_online_container a {
+    color: white;
+    text-decoration: none;
+    background-color: #D1AD3C;
+    border-radius: 40px;
+    transition: 0.4s;
+
+}
+
+.quran_online_container a:hover {
+    background-color: #2A486C;
+    transition: 0.4s;
+}
+
+@media screen and (max-width:770px) {
+    .bsml_container img {
+        width: 25vh;
+    }
+
+    .knwo_the_real {
+        font-size: 20px;
+    }
+
+    .tafseer {
+        font-size: 42px;
+        line-height: 1;
+    }
+
+    .when_things p {
+        font-size: 16px;
+        padding: 0px 30px;
+        line-height: 1.1;
+    }
+}
+
+/**___________________ home section ends ___________________**/

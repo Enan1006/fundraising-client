@@ -1,0 +1,38 @@
+/**_________________________________ feature section starts ____________________________________**/
+
+
+.feature_icon {
+    width: auto;
+    font-size: 55px;
+    color: #2A486C;
+    border: 1px solid #D1AD3C;
+}
+
+.feature_icon {
+    font-size: 50px;
+    padding: 30px;
+    transition: 0.5s;
+    width: 115px;
+    height: 115px;
+}
+
+.feature_card:hover {
+    background-color: #D1AD3C;
+    color: white;
+    transition: 0.4s;
+}
+
+.outline_circle {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.feature_title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2A486C;
+}
+
+.feature_body {
+    font-size: 15px;
+    font-weight: 600;
+}

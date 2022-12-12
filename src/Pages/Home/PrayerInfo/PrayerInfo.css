@@ -1,0 +1,58 @@
+.section-bg {
+    background-color: #FAFAFA;
+}
+
+.jumma-section-bg {
+    background-color: #F5F5F5;
+}
+
+.jumma-time {
+    font-weight: 400;
+}
+
+.jumma-2nd-bg {
+    background-color: #ECECEC;
+}
+
+
+.multiple_fridat {
+    font-size: 20px;
+    color: #D1AD3C;
+    font-weight: 400;
+}
+
+.info_main_heading {
+    font-size: 48px;
+    line-height: 0.7;
+}
+
+.info_desc {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.9;
+    color: #7A7A7A;
+}
+
+.jummah_info_icon_container i {
+    font-size: 50px;
+    font-weight: 900;
+    color: #D1AD3C;
+}
+
+.info_card_title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #D1AD3C;
+}
+
+.jummah_desc {
+    font-size: 14px;
+    color: #7A7A7A;
+    font-weight: 700;
+}
+
+.info_jummah_footer {
+    font-size: 13px;
+    font-weight: 400;
+    color: #7A7A7A;
+}

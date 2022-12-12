@@ -1,0 +1,48 @@
+/**_________________________________ Servicing Humanity section starts ____________________________________**/
+.card_shadow {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.service_icon {
+    font-size: 60px;
+    font-weight: 400;
+    color: #D1AD3C;
+}
+
+.service_heading {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2A486C;
+}
+
+.service_body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.service_read_more_btn {
+    font-size: 16px;
+    font-weight: 400;
+    color: #D1AD3C;
+    text-decoration: none;
+}
+
+.service_card {
+    transition: 0.5s;
+    border-radius: 3px;
+}
+
+.service_card:hover {
+    background-color: #D1AD3C !important;
+    color: white !important;
+}
+
+.service_card:hover .service_icon,
+.service_card:hover .service_heading,
+.service_card:hover .service_read_more_btn {
+    color: white !important;
+}
+
+
+/**___________________ Servicing Humanity section ends ___________________**/

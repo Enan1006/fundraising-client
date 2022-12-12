@@ -1,0 +1,61 @@
+.charity_campaing_heading {
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+}
+
+.charity-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #D1AD3C;
+}
+
+.donate_home_icon a {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.donate_home_icon a:hover {
+    color: #D1AD3C;
+}
+
+.donate_card_heading {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.donate_card_heading:hover h5 {
+    color: #D1AD3C !important;
+}
+
+.doate_progressbar {
+    background-color: #D1AD3C !important;
+}
+
+
+.donate_card_progressbar {
+    --size: 4rem;
+    --fg: #D1AD3C;
+    --bg: #2A486C;
+    --pgPercentage: var(--value);
+    animation: growProgressBar 3s 1 forwards;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background:
+        radial-gradient(closest-side, white 80%, transparent 0 99.9%, white 0),
+        conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 5);
+    color: var(--fg);
+}
+
+.donate_card_progressbar::before {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) '%';
+}

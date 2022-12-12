@@ -1,0 +1,87 @@
+.event-bg {
+    background-color: #EDEDED
+}
+
+.card-event {
+    width: 20%;
+}
+
+.div-card-bg {
+    background-color: white;
+}
+
+.div-banner-bg {
+    /* background:linear-gradient(180deg,rgba(0,0,0,0.5),#D1AD3C),url(static/1_images/5_events/1_events.jpg); */
+    background-size: cover;
+    background-position: center;
+    height: 48vh;
+}
+
+.scholar-meet {
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.scholar-meet-time {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-heading-div {
+    width: 50%;
+}
+
+/**_________________________________ event section starts ____________________________________**/
+
+.prayer_time_table_heading {
+    color: #2A486C;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.salat_color {
+    color: #D1AD3C;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.slat_time {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7A7A7A;
+}
+
+.event_location {
+    color: #7A7A7A;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 0.5;
+}
+
+.event_regular_date {
+    font-size: 13px;
+    font-weight: 400;
+    color: #D1AD3C;
+    line-height: 0.5;
+}
+
+.evente_arabic_date {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 0.5;
+}
+
+@media screen and (max-width:1146px) {
+
+    .event_location,
+    .event_regular_date,
+    .evente_arabic_date {
+        font-size: 12px;
+        line-height: 1.2;
+    }
+}
+
+
+
+/**___________________ event section ends ___________________**/

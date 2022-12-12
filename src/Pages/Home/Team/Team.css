@@ -1,0 +1,49 @@
+.about-scholar {
+    font-size: 14px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+.team_section_img img {
+    font-size: 50px;
+    transition: 0.5s;
+    width: 115px;
+    height: 115px;
+}
+
+.team_card {
+    transition: 0.5s;
+}
+
+.team_heading {
+    color: #D1AD3C;
+}
+
+.social_media_icon {
+    background-color: #e5cd7f;
+    color: white;
+}
+
+
+.team_card:hover .team_section_img {
+    border: 2px solid white;
+}
+
+.team_card:hover {
+    background-color: #D1AD3C;
+}
+
+.team_card:hover .team_heading,
+.team_card:hover .team_body {
+    color: white;
+}
+
+.team_card:hover .social_media_icon {
+    color: #ffffff !important;
+}
